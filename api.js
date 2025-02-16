@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Basic GET route
 app.get('/', (req, res) => {
-    res.send({ message: 'Hello, this is a simple Node.js API!' });
+    res.send({ message: 'Hello this is My First API that I have deployed on render!' });
 });
 
 // POST route to handle JSON data
@@ -18,5 +18,5 @@ app.post('/data', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log('server is up\n');
 });
